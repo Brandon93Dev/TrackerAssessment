@@ -28,11 +28,9 @@ This document serves as an instruction manual to get the solutions running on yo
     - This can be done via terminal or by opening the projects in vidual studio and using
         -   Tools -> NuGet Package manager -> Package manager console
     and using the following commands within terminal/NuGet Package manager console:
-    -> Package Manager console
-        ```bash
+    -> Package Manager console:    
         Update-Database
-    -> Terminal
-        ```bash 
+    -> Terminal:   
         dotnet ef database update
 
 ## Running locally

@@ -12,7 +12,7 @@ using Tracker.Publisher.Data;
 namespace Tracker.Publisher.Migrations
 {
     [DbContext(typeof(TelemetryDbCtx))]
-    [Migration("20260627105417_PendingReadingsCreation")]
+    [Migration("20260630185417_PendingReadingsCreation")]
     partial class PendingReadingsCreation
     {
         /// <inheritdoc />
